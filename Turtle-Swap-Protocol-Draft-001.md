@@ -5,8 +5,8 @@ Draft 0
 
 
 
-RockSteady, Soregums, Fexra, Zpalm, IBurnMyCD
-===
+*RockSteady, Soregums, Fexra, Zpalm, IBurnMyCD*
+
 Create a protocol for publishing and consuming swap offers, cross-network via p2p daemon advertisement.
 
 Summary: It is possible for daemons to opt-in to a secondary protocol allowing management and interaction with a pool of orders for cross-chain atomic transfer.
