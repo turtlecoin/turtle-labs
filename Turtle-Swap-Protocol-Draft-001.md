@@ -5,7 +5,7 @@ Draft 0
 
 
 
-*RockSteady, Soregums, Fexra, Zpalm, IBurnMyCD*
+*RockSteady, SoreGums, Fexra, Zpalm, IBurnMyCD*
 
 Create a protocol for publishing and consuming swap offers, cross-network via p2p daemon advertisement.
 
@@ -15,7 +15,7 @@ By designing a method for connecting to, surveying, and consuming orders from ot
 Example Scenario: Jenny is on the TRTL Network and she wants to transfer 1,000,000.00 TRTL for 1,000,000,000.00 DATA on the Karai network. Paul is on the Karai Network, and he has 1,000,000,000.00 DATA to swap for TRTL.
 
 1. Jenny launches her TRTL Network daemon with swap enabled ```./TurtleCoind --swap DATA 123.222.222.222```
-The syntax enables her to `--swap` enable swap mode, `DATA` specify a receiving instrument for surety that this is the network she wishes to transact on, and `123.333.333.333`, a seed node (reliable entry) to the neighbor network.
+The syntax enables her to `--swap` enable swap mode, `DATA` specify a receiving instrument for surety that this is the network she wishes to transact on, and `123.333.333.333`, a seed node (swap enabled, reliable entry) to the neighbor network.
 2. Jenny's daemon has connected to the TRTL Network, and has received a heartbeat or indicator from the neighbor network's seed that she is engaged in a connection currently.
 3. Jenny can then issue commands like `list` or `consume` or `offer`:
   - `list` would list current swap offers of the neighbor network with swap offers for Jenny's native currency at the top of the list.
