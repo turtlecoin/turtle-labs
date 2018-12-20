@@ -27,7 +27,7 @@ Diagram:
 Listings should be easily viewable from the terminal, and should supply API endpoints for explorers to consume the offer data. This enables open swap offers to be browsed from websites instead of needing a different sync'd daemon for each network.
 
 ID(int), publisheraddress(string), numberofnativecurrency(int), swapcurrencyamount(int), expirationdate
-
+```
 ==========================================================================================================================
 =  ID  =  Publisher Address  =  Amt. Publisher Currency  =  Amt. Consumer Currency  =  full/partial  =  expiration time  =
 ==========================================================================================================================
@@ -38,6 +38,6 @@ ID(int), publisheraddress(string), numberofnativecurrency(int), swapcurrencyamou
  CBCDA4   TRTLv2iu84jgje...         1,000,000 TRTL               5,000 XMLC            Partial        1,000 TRTL Blocks
  5D8BAC   TRTLv2iu84jgje...         1,000,000 TRTL               5,000 XMLC            Partial        1,000 TRTL Blocks
  
- 
+ ```
  
  TODO: Border interaction
